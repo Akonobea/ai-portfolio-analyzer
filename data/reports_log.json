@@ -1,0 +1,85 @@
+[
+  {
+    "timestamp": "2026-03-02T15:48:57.452517+00:00",
+    "portfolio": {
+      "BTC": {
+        "allocation": 0.5555555555555556,
+        "amount_usd": 5555.56,
+        "price": 69463,
+        "change_24h": 3.379681980327204
+      },
+      "ETH": {
+        "allocation": 0.3333333333333333,
+        "amount_usd": 3333.33,
+        "price": 2058.39,
+        "change_24h": 2.318271918221931
+      },
+      "SOL": {
+        "allocation": 0.1111111111111111,
+        "amount_usd": 1111.11,
+        "price": 88.53,
+        "change_24h": 2.4805959744564374
+      }
+    },
+    "total_value": 10000,
+    "metrics": {
+      "tickers": [
+        "BTC",
+        "ETH",
+        "SOL"
+      ],
+      "weights": {
+        "BTC": 0.5555555555555556,
+        "ETH": 0.3333333333333333,
+        "SOL": 0.1111111111111111
+      },
+      "volatilities": {
+        "BTC": 80.33,
+        "ETH": 100.72,
+        "SOL": 102.19
+      },
+      "portfolio_volatility": 87.96,
+      "max_drawdowns": {
+        "BTC": -20.2,
+        "ETH": -25.51,
+        "SOL": -26.21
+      },
+      "correlation": {
+        "BTC": {
+          "BTC": 1.0,
+          "ETH": 0.939,
+          "SOL": 0.936
+        },
+        "ETH": {
+          "BTC": 0.939,
+          "ETH": 1.0,
+          "SOL": 0.954
+        },
+        "SOL": {
+          "BTC": 0.936,
+          "ETH": 0.954,
+          "SOL": 1.0
+        }
+      },
+      "hhi": 0.4321,
+      "risk_score": 46.7,
+      "risk_label": "Medium"
+    },
+    "ai_report": {
+      "risk_score": 47,
+      "risk_label": "Medium",
+      "diversification_assessment": "Moderately Diversified",
+      "key_risks": [
+        "High volatility in assets",
+        "Significant drawdown potential",
+        "High correlation among assets"
+      ],
+      "rebalancing_suggestions": [
+        "Reduce BTC allocation to below 50%",
+        "Increase allocation to SOL for better diversification",
+        "Consider adding a stablecoin to reduce volatility"
+      ],
+      "summary": "The portfolio exhibits a medium risk profile with a computed risk score of 47. It is moderately diversified with a concentration index of 0.4321, indicating a reliance on a few assets. High volatility and significant drawdown potential in the current asset allocations suggest the need for strategic rebalancing to mitigate risks."
+    }
+  }
+]
